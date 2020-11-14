@@ -1,6 +1,6 @@
 :root {
   font-size: 16px;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   --text-primary: #b6b6b6;
   --text-secondary: #ececec;
   --bg-primary: #23232e;
@@ -9,6 +9,7 @@
 }
 
 body {
+  font-family: 'Open Sans', sans-serif;
   color: black;
   background-color: white;
   margin: 0;
@@ -16,7 +17,7 @@ body {
 }
 
 body::-webkit-scrollbar {
-  width: 0.25rem;
+  width: 0.25em;
 }
 
 body::-webkit-scrollbar-track {
@@ -24,7 +25,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #6649b8;
+  background: #FE5F55;
 }
 
 main {
@@ -32,6 +33,7 @@ main {
   padding: 1rem;
 }
 
+/* Navigation */
 .navbar {
   position: fixed;
   background-color: var(--bg-primary);
@@ -229,4 +231,25 @@ main {
 
 .solar #solarIcon {
   display: block;
+}
+
+/* Page Content */
+.heading1 {
+  margin-top: auto;
+  font-size: 3.5em;
+  font-weight: 400;
+}
+
+.heading2 {
+  margin-top: auto;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+.rule {
+  background: #FE5F55;
+  width: 14.25em;
+  align-items: left;
+  margin-top: -3.75em;
+  margin-left: 0;
 }
