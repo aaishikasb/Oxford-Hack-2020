@@ -4,6 +4,7 @@
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet" />
   <script src="https://kit.fontawesome.com/354967ed78.js" crossorigin="anonymous"></script>
+  <title>Find My Human</title>
 </head>
 
 <body>
@@ -126,13 +127,42 @@
       </div>
       <div class="col-66">
         <div class="block gutter verttical-center" style="overflow-wrap: normal;">
-          <h1 class="heading3" width="100%"> Using this Web Application you can <span class="highlight">Report</span> a Missing Person, or if you find somebody who is lost, you can run a <span class="highlight">Search</span>. Our aim is to provide a platform that you can use to connect with your loved ones at the earliest.</h1> <br>
-          <h1 class="heading3">We would first recommend you to file a <span class="highlight">Complaint</span> at your nearest local <span class="highlight">Police Station</span>.</h1><br>
-          <h1 class="heading3">Your data is <span class="highlight">Secure</span> & <span class="highlight">Encrypted</span>.</h1>
-          <a class="btn" href="#scroll-here" style="margin-top: 60px;">
+          <h1 class="heading3" width="100%"> Using this Web Application you can <span class="highlight">Report</span> a
+            Missing Person, or if you find somebody who is lost, you can run a <span class="highlight">Search</span>.
+            Our aim is to provide a platform that you can use to connect with your loved ones at the earliest.</h1> <br>
+          <h1 class="heading3">We would first recommend you to file a <span class="highlight">Complaint</span> at your
+            nearest local <span class="highlight">Police Station</span>.</h1><br>
+          <h1 class="heading3">Your data is <span class="highlight">Secure</span> & <span
+              class="highlight">Encrypted</span>.</h1>
+          <a class="btn" href="#scroll-here" style="margin-top: 60px; margin-bottom: 60px;">
             Scroll Down <i class="fas fa-caret-down"></i>
-        </a>
+          </a>
         </div>
       </div>
+    </div>
+
+    <!-- Landing Ends -->
+    <!-- Report and Search Bars-->
+    <div class="grid1">
+      <div class="col-50">
+        <div class="inline gutter" style="margin-right: 1em;">
+          <h1 class="heading4" onclick="Report()">Report</h1>
+        </div>
+      </div>
+      <div class="col-50">
+        <div class="inline gutter">
+          <h1 class="heading4" onclick="Search()">Search</h1>
+        </div>
+      </div>
+    </div>
+    <iframe src="report.html" width="100%" height="800" frameBorder="0" id="main-frame">Browser not compatible.</iframe>
   </main>
+  <script>
+    function Report() {
+      document.getElementById("main-frame").src = "report.html";
+    }
+    function Search() {
+      document.getElementById("main-frame").src = "search.html";
+    }
+  </script>
 </body>
