@@ -2,13 +2,11 @@
 
 Official Entry of Team sendCodes, from SRM Institute of Science and Technology, Kattankulathur, India, to Oxford Hack 2020. <br>
 
-<div style="display: flex; align-items: center;" markdown="1">
 ![Collaborators](https://img.shields.io/badge/collaborators-4-red)
 ![Status](https://img.shields.io/badge/status-working-orange)
 ![Issues](https://img.shields.io/badge/issues-1-blue)
 [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) 
-</div>
 
 ## Links to Oxford Hack 2020 ⚓
 
@@ -20,7 +18,7 @@ Official Entry of Team sendCodes, from SRM Institute of Science and Technology, 
 
 ## Problem Statement 🚧
 
-***Missing Person Report and Search***
+### Missing Person Report and Search
 
 ## Background 📖
 
