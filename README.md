@@ -61,10 +61,10 @@ To checkout the Web Application simply head over [here](https://findmyhuman.onli
 
 - Day 1: Checkpoints:
    - [x] Documentation
-   - [ ] Set Up Front End
-   - [ ] Create a Chatbot
-   - [ ] Implement UI/UX Principles
-   - [ ] Set Up Database using Firespace
+   - [x] Set Up Front End
+   - [x] Create a Chatbot
+   - [x] Implement UI/UX Principles
+   - [x] Set Up Database using Firespace
    - [ ] Implement Form and Search
 - Day 2: Checkpoints:
    - [ ] Integrate Front End and Back End
