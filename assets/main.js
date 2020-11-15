@@ -39,11 +39,11 @@ window.onload=function (){
       let height=(item.val()['height']);
       let outfit=(item.val()['outfit']);
       let phone=(item.val()['phone']);
-      let photo=(item.val()['photo']);
+      //let photo=(item.val()['photo']);
      // let z=(item.val()["complexion"]);
      // e.innerHTML+=(y+'\n'+z+'<br>');
-     e.innerHTML+=(age+'  '+name+'  '+complexion+'  '+photo+'  ');
-     e.innerHTML+=('<br><br>')
+     e.innerHTML+=('<fieldset><legend>Missing</legend>'+'Name: '+name+'  '+'Age: '+age+'  '+'Gender: '+gender+'  '+'Complexion: '+complexion+'  '+'Birthmarks: '+birthmarks+'  '+'Build: '+build+'  '+'Eyes: '+eyes+'  '+'Hair: '+hair+'  '+'Height: '+height+'  '+'Phone: '+phone+'  '+'Outfit: '+outfit+'  '+'Last Seen: '+last_seen+'</fieldset');
+     e.innerHTML+=('<br>')
     });
     // ...
   });

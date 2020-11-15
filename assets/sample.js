@@ -1,0 +1,1 @@
+e.innerHTML+=('<fieldset>'+'Name: '+name+'  '+'Age: '+age+'  '+'Gender: '+gender+'  '+'Complexion: '+complexion+'  '+'Birthmarks: '+birthmarks+'  '+'Build: '+build+'  '+'Eyes: '+eyes+'  '+'Hair: '+hair+'  '+'Height: '+height+'  '+'Phone: '+phone+'  '+'Outfit: '+outfit+'  '+'Last Seen: '+last_seen+'</fieldset');
