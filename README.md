@@ -18,11 +18,11 @@ Official Entry of Team sendCodes, from SRM Institute of Science and Technology, 
 
 ## Problem Statement 🚧
 
-### Missing Person Report and Search
+### Hack for a good cause: Missing Person Report and Search
 
 ## Background 📖
 
-[![YouTube](repository-assets/YTCover.png)](https://add.link/)
+[![YouTube](repository-assets/1.png)](https://youtu.be/-l6Ct00rVbs)
 
 India is home to more than 400 million children below the age of 18 years, and is considered one of the countries in which youth and children comprise more than 55% of the population. These missing children represent diverse cultures, religions, castes, communities, social and economic groups.
 
@@ -39,7 +39,7 @@ Right now we have only added some statistics about children who go missing, when
 
 ## About Find My Human 🔧
 ### What
-**Find My Human** is a Web Application that enables it's user to run a search for a missing Family Member. The User, assuming that they are already distressed, does not have to login and can file a report for a missing person. If a User finds someone who is lost, they can run a Search over the platform and try to find the best fit for the description that they enter as an input.
+**Find My Human** is a Web Application that enables it's user to run a search for a missing Family Member. The User, assuming that they are already distressed, does not have to login and can file a report for a missing person. If a User finds someone who is lost, they can run a Search over the platform and try to find the best fit for the description that they enter as an input. The Web Application uses a Google Cloud Storage Bucket and Loadbalancers.
 
 ### Why
 We do not really have platforms which allow people to run searches online or file reports of missing people as efficiently, the one's that we do are not at all User Friendly and only add on to the distress that family members face. With our platform **Find My Human**, we promise the users to offer better accessibilty, add language support for different regions and help them find their loved ones, as soon as possible.
@@ -48,6 +48,11 @@ We do not really have platforms which allow people to run searches online or fil
 With a super simple User Interface and support for different languages, we make Reporting and Searching easy. Under the hood, we have a really elastically scalable system, deployed over Google Cloud Platform to handle traffic. We are using Firebase to store and export data and we have tried our level best to offer family members the smoothest experience. Currently, we are only offering support in our target country but in our future iterations we plan on expanding our services to different regions and take this idea forward, to help families find their loved ones as effortlessly as possible.
 
 ### Screenshots
+![Screenshot](repository-assets/1.png)
+![Screenshot](repository-assets/2.png)
+![Screenshot](repository-assets/3.png)
+![Screenshot](repository-assets/4.png)
+![Screenshot](repository-assets/5.png)
 
 ## Installation and Execution
 
@@ -68,7 +73,7 @@ To checkout the Web Application simply head over [here](https://findmyhuman.onli
    - [x] Implement Form and Search
 - Day 2: Checkpoints:
    - [x] Integrate Front End and Back End
-   - [ ] Deploy over Cloud
+   - [x] Deploy over Cloud
    - [x] Run Checks
 
 ## Technology Principles Implemented 💡
