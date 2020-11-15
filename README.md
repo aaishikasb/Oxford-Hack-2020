@@ -65,9 +65,9 @@ To checkout the Web Application simply head over [here](https://findmyhuman.onli
    - [x] Create a Chatbot
    - [x] Implement UI/UX Principles
    - [x] Set Up Database using Firespace
-   - [ ] Implement Form and Search
+   - [x] Implement Form and Search
 - Day 2: Checkpoints:
-   - [ ] Integrate Front End and Back End
+   - [x] Integrate Front End and Back End
    - [ ] Deploy over Cloud
    - [ ] Run Checks
 
@@ -85,6 +85,7 @@ To checkout the Web Application simply head over [here](https://findmyhuman.onli
 ## Technology Stack 💻
 
 - Google Cloud Platform
+- GitHub
 - HTML
 - CSS
 - JavaScript
@@ -93,8 +94,13 @@ To checkout the Web Application simply head over [here](https://findmyhuman.onli
 - Google Dialog Flow
 - Google Translate API
 - Kommunicate
+  
+### Attributions
+
 - Collect.chat
 - Iconscout
+- Fireship
+- Coolors.co
 
 ## Nominations for Sponsor Challenges 🤝
 
