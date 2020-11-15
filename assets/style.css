@@ -368,6 +368,7 @@ main {
   cursor: pointer;
   text-decoration: none;
   text-transform: uppercase;
+  padding: 0.5em 0.75em;
 }
 
 .btn:hover {
