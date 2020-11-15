@@ -39,7 +39,7 @@ Right now we have only added some statistics about children who go missing, when
 
 ## About Find My Human 🔧
 ### What
-**Find My Human** is a Web Application that enables it's user to run a search for a missing Family Member. The User, assuming that they are already distressed, does not have to login and can file a report for a missing person. If a User finds someone who is lost, they can run a Search over the platform and try to find the best fit for the description that they enter as an input. We expand our Web Application to an Android App built using Kotlin for added
+**Find My Human** is a Web Application that enables it's user to run a search for a missing Family Member. The User, assuming that they are already distressed, does not have to login and can file a report for a missing person. If a User finds someone who is lost, they can run a Search over the platform and try to find the best fit for the description that they enter as an input. We expand our Web Application to an Android App built using Kotlin for added accessibility.
 
 ### Why
 We do not really have platforms which allow people to run searches online or file reports of missing people as efficiently, the one's that we do are not at all User Friendly and only add on to the distress that family members face. With our platform **Find My Human**, we promise the users to offer better accessibilty, add language support for different regions and help them find their loved ones, as soon as possible.
@@ -52,9 +52,9 @@ With a super simple User Interface and support for different languages, we make 
 ## Installation and Execution
 
 To checkout the Web Application simply head over [here](https://findmyhuman.online) or follow these steps.
-   - Clone this repository.
-   - Open index.html.
-   - Make sure you have an active Internet Connection so the Web Application functions best (Chatbot and Database Access requires access to the Internet).
+   1. Clone this repository.
+   2. Open index.html.
+   3. Make sure you have an active Internet Connection so the Web Application functions best (Chatbot and Database Access requires access to the Internet).
 
 
 ## Timeline ⏰
@@ -109,7 +109,7 @@ To checkout the Web Application simply head over [here](https://findmyhuman.onli
 No beep-bops, only developers.
 | Name      | GitHub Profile     |
 | :------------- | :----------: |
-|  Aaishika S Bhattacharya /| Team Lead | [GitHub](https://www.github.com/aaishikasb)   |
+|  Aaishika S Bhattacharya | [GitHub](https://www.github.com/aaishikasb)   |
 |  Akash Ramjyothi   | [GitHub](https://www.github.com/akash-ramjyothi) |
 |  Gyanesh Samanta   | [GitHub](https://www.github.com/gyanesh-samanta-123) |
 |  Souharda Biswas   | [GitHub](https://www.github.com/TheSouharda) |
