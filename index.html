@@ -6,10 +6,11 @@
   <script src="https://kit.fontawesome.com/354967ed78.js" crossorigin="anonymous"></script>
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>Find My Human</title>
 </head>
 
-<body>
+<body div data-aos="fade-up">
   <nav class="navbar">
     <ul class="navbar-nav">
       <li class="logo">
@@ -165,6 +166,10 @@
           class="highlight">Oxford Hack 2020</span>.</h1>
     </div>
   </main>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script>
     function Report() {
       document.getElementById("main-frame").src = "report.html";
