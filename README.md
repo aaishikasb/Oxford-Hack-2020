@@ -22,7 +22,7 @@ Official Entry of Team sendCodes, from SRM Institute of Science and Technology, 
 
 ## Background 📖
 
-[![YouTube](repository-assets/1.png)](https://youtu.be/-l6Ct00rVbs)
+[![YouTube](repository-assets/yt.png)](https://youtu.be/-l6Ct00rVbs)
 
 India is home to more than 400 million children below the age of 18 years, and is considered one of the countries in which youth and children comprise more than 55% of the population. These missing children represent diverse cultures, religions, castes, communities, social and economic groups.
 
