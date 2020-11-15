@@ -14,6 +14,7 @@ body {
   background-color: white;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -256,9 +257,15 @@ main {
   margin-top: auto;
   font-size: 2.5em;
   font-weight: 400;
-  border-bottom: 10px solid #FE5F55;
+
   cursor: pointer;
   width: auto;
+}
+
+.border_bottom {
+  border-bottom: 10px solid #FE5F55;
+  width: 3.5em;
+  margin: 0.1em;
 }
 
 .heading5 {
@@ -287,41 +294,51 @@ main {
 }
 
 /* Columns */
-.grid{
+.grid {
   width: 100%;
   max-width: auto;
-  margin: 0 ;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+
 }
 
-.col-33{
+
+
+.col-33 {
   width: 33.3%;
   float: left;
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
-.col-50{
+
+.col-50 {
   width: 30%;
   float: left;
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
 
-.col-66{
+.col-66 {
   width: 66.7%;
   float: left;
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
 
-.gutter{
+.gutter {
   margin-left: 20px;
   margin-right: 20px;
 }
 
 @media all and (max-width:600px) {
-  .col-50, .col-33{
-      width: 100%;
-      float: none;
+
+  .col-50,
+  .col-33 {
+    width: 100%;
+    float: none;
   }
 }
 
@@ -344,41 +361,39 @@ main {
 }
 
 .btn {
-    color:  #FE5F55;
-    background: transparent; 
-    border: 2px solid #FE5F55;
-    border-radius: 6px; 
-    padding: 16px 32px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
+  color: #FE5F55;
+  background: transparent;
+  border: 2px solid #FE5F55;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+}
 
 .btn:hover {
   background-color: #FE5F55;
-  color: white; }
+  color: white;
+}
 
-  .inline {
-    display: inline;
-  }
+.inline {
+  display: inline;
+}
 
-  .grid{
-    width: 100%;
-    max-width: 100%;
-    margin: 1em ;
-  }
+.grid1 {
+  width: 100%;
+  max-width: 100%;
+  margin: 1em;
 
-  .alert{
-    text-align: center;
-    padding:10px;
-    background: #FE5F55;
-    color:#fff;
-    margin-bottom:10px;
-    display:none;
-  }
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.alert {
+  text-align: center;
+  padding: 10px;
+  background: #FE5F55;
+  color: #fff;
+  margin-bottom: 10px;
+  display: none;
+}

@@ -112,12 +112,14 @@
 
     <script type="text/javascript">
       function googleTranslateElementInit() {
-        new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+        new google.translate.TranslateElement({
+          pageLanguage: 'en'
+        }, 'google_translate_element');
       }
     </script>
 
-    <script type="text/javascript"
-      src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
     <!-- Language API Ends-->
     <div class="grid">
       <div class="col-33">
@@ -146,12 +148,12 @@
     <div class="grid1">
       <div class="col-50">
         <div class="inline gutter" style="margin-right: 1em;">
-          <h1 class="heading4" onclick="Report()">Report</h1>
+          <h1 class="heading4 border_bottom" onclick="Report()">Report</h1>
         </div>
       </div>
       <div class="col-50">
         <div class="inline gutter">
-          <h1 class="heading4" onclick="Search()">Search</h1>
+          <h1 class="heading4 border_bottom" onclick="Search()">Search</h1>
         </div>
       </div>
     </div>
@@ -161,6 +163,7 @@
     function Report() {
       document.getElementById("main-frame").src = "report.html";
     }
+
     function Search() {
       document.getElementById("main-frame").src = "search.html";
     }
