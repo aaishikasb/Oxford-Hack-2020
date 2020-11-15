@@ -39,7 +39,7 @@ Right now we have only added some statistics about children who go missing, when
 
 ## About Find My Human 🔧
 ### What
-**Find My Human** is a Web Application that enables it's user to run a search for a missing Family Member. The User, assuming that they are already distressed, does not have to login and can file a report for a missing person. If a User finds someone who is lost, they can run a Search over the platform and try to find the best fit for the description that they enter as an input. We expand our Web Application to an Android App built using Kotlin for added accessibility.
+**Find My Human** is a Web Application that enables it's user to run a search for a missing Family Member. The User, assuming that they are already distressed, does not have to login and can file a report for a missing person. If a User finds someone who is lost, they can run a Search over the platform and try to find the best fit for the description that they enter as an input.
 
 ### Why
 We do not really have platforms which allow people to run searches online or file reports of missing people as efficiently, the one's that we do are not at all User Friendly and only add on to the distress that family members face. With our platform **Find My Human**, we promise the users to offer better accessibilty, add language support for different regions and help them find their loved ones, as soon as possible.
@@ -69,7 +69,7 @@ To checkout the Web Application simply head over [here](https://findmyhuman.onli
 - Day 2: Checkpoints:
    - [x] Integrate Front End and Back End
    - [ ] Deploy over Cloud
-   - [ ] Run Checks
+   - [x] Run Checks
 
 ## Technology Principles Implemented 💡
 
