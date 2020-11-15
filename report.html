@@ -14,71 +14,88 @@
 <body>
     <!--Form-->
     <div class="contact">
-        <h1 class="heading2">Please Enter the following Details:</h3>
-            <div class="alert">Your message has been sent</div>
-            <form id="contactForm">
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name" required class="form-control">
-                    </div>
-                    <div class="form-group col-md-3">
-                        <label for="age">Age</label>
-                        <input type="text" name="age" id="age" class="form-control">
-                    </div>
-                    <div class="form-group col-md-3">
-                        <label for="height">Height</label>
-                        <input type="text" name="height" id="height" required class="form-control">
-                    </div>
+        <h1 class="heading2">Please Enter the following Details:</h1>
+        <div class="alert">Your message has been sent</div>
+        <form id="contactForm" style="padding: 0.5em;">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" required class="form-control">
                 </div>
-                <div class="form-row">
-                    <div class="form-group col-md-4">
-                        <label for="phone">Phone Number</label>
-                        <input type="text" name="phone" id="phone" class="form-control">
-                    </div>
-                    <div class="form-group col-md-4">
-                        <label for="complexion">Complexion</label>
-                        <input type="text" name="complexion" id="complexion" class="form-control">
-                    </div>
-                    <div class="form-group col-md-4">
-                        <label for="hair">Hair</label>
-                        <input type="text" name="hair" id="hair" class="form-control">
-                    </div>
+                <div class="form-group col-md-3">
+                    <label for="age">Age</label>
+                    <input type="text" name="age" id="age" class="form-control">
                 </div>
-                <div class="form-row">
-                    <div class="form-group col-md-3">
-                        <label for="eyes">Eyes</label>
-                        <input type="text" name="eyes" id="eyes" class="form-control">
-                    </div>
-                    <div class="form-group col-md-9">
-                        <label for="birthmarks">Birthmarks</label>
-                        <input type="text" name="birthmarks" id="birthmarks" class="form-control">
-                    </div>
+                <div class="form-group col-md-3">
+                    <label for="height">Height</label>
+                    <input type="text" name="height" id="height" required class="form-control">
                 </div>
-                <div class="form-row">
-                    <div class="form-group col-md-4">
-                        <label for="gender">Gender</label>
-                        <input type="text" name="gender" id="gender" class="form-control">
-                    </div>
-                    <div class="form-group col-md-8">
-                        <label for="last_seen">Last Seen</label>
-                        <input type="text" name="last_seen" id="last_seen" class="form-control">
-                    </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" name="phone" id="phone" class="form-control">
                 </div>
-                <div class="form-row">
-                    <div class="form-group col-md-3">
-                        <label for="build">Build</label>
-                        <input type="text" name="build" id="build" class="form-control">
-                    </div>
-                    <div class="form-group col-md-9">
-                        <label for="outfit">Outfit</label>
-                        <input type="text" name="outfit" id="outfit" class="form-control">
-                    </div>
-                </div></div>
-                        <p class="full">
-                            <button type="submit" class="btn btn-danger">Submit</button>
-                        </p>
-            </form>
+                <div class="form-group col-md-4">
+                    <label for="complexion">Complexion</label>
+                    <select class="form-control" id="complexion" name="complexion">
+                        <option class="disabledSelect">Select</option>
+                        <option>Fair</option>
+                        <option>Dusky</option>
+                        <option>Dark</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="hair">Hair</label>
+                    <input type="text" name="hair" id="hair" class="form-control">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-3">
+                    <label for="eyes">Eyes</label>
+                    <input type="text" name="eyes" id="eyes" class="form-control">
+                </div>
+                <div class="form-group col-md-9">
+                    <label for="birthmarks">Birthmarks</label>
+                    <input type="text" name="birthmarks" id="birthmarks" class="form-control">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="gender">Gender</label>
+                    <select class="form-control" id="gender" name="gender">
+                        <option>Select</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Transgender</option>
+                        <option>Nonbinary</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-8">
+                    <label for="last_seen">Last Seen</label>
+                    <input type="text" name="last_seen" id="last_seen" class="form-control">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-3">
+                    <label for="build">Build</label>
+                    <select class="form-control" id="build" name="build">
+                        <option>Select</option>
+                        <option>Thin</option>
+                        <option>Normal</option>
+                        <option>Bulky</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-9">
+                    <label for="outfit">Outfit</label>
+                    <input type="text" name="outfit" id="outfit" class="form-control">
+                </div>
+            </div>
+    </div>
+    <p class="full">
+        <button type="submit" class="btn btn-danger">Submit</button>
+    </p>
+    </form>
     </div>
     <!--Form Ends-->
     <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
