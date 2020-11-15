@@ -92,17 +92,18 @@
                 </div>
             </div>
             <div class="form-group">
-                <label for="image">Upload Image <span class="highlight">*</span></label>
-                <input type="file" class="form-control-file form-control-lg" id="image" name="image">
+                <label for="photo">Upload Image <span class="highlight">*</span></label>
+                <input type="file" class="form-control-file form-control-lg" id="photo" name="photo">
             </div>
     </div>
     <p class="full">
-        <button type="submit" class="btn btn-danger">Submit</button>
+        <button type="submit" class="btn btn-danger" onclick="uploadImage()">Submit</button>
     </p>
     </form>
     </div>
     <!--Form Ends-->
     <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase-storage.js"></script>
     <script src="assets/main.js"></script>
 </body>
 

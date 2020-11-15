@@ -398,3 +398,9 @@ main {
   margin-bottom: 10px;
   display: none;
 }
+
+.footer {
+  padding: 1em;
+  bottom: 0 !important;
+  margin-top: 2em;
+}
