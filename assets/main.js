@@ -17,6 +17,43 @@ var config = {
 firebase.initializeApp(config);
 console.log(firebase)
 
+// Reference messages collection
+var messagesRef = firebase.database().ref('messages');
+let e=document.getElementById("demo");
+window.onload=function (){
+  return firebase.database().ref('/messages/').once('value').then(function(snapshot) {
+    //console.log(snapshot.val());
+    let list=snapshot.val();
+    console.log(typeof(list));
+    snapshot.forEach(function(item) {
+      console.log(item.val()["age"]);
+      let age=(item.val()['age']);
+      let name=(item.val()['name']);
+      let complexion=(item.val()['complexion']);
+      let gender=(item.val()['gender']);
+      let birthmarks=(item.val()['birthmarks']);
+      let build=(item.val()['build']);
+      let eyes=(item.val()['eyes']);
+      let last_seen=(item.val()['last_seen']);
+      let hair=(item.val()['hair']);
+      let height=(item.val()['height']);
+      let outfit=(item.val()['outfit']);
+      let phone=(item.val()['phone']);
+      let photo=(item.val()['photo']);
+     // let z=(item.val()["complexion"]);
+     // e.innerHTML+=(y+'\n'+z+'<br>');
+     e.innerHTML+=(age+'  '+name+'  '+complexion+'  '+photo+'  ');
+     e.innerHTML+=('<br><br>')
+    });
+    // ...
+  });
+  //console.log("Hi");
+};
+
+function myFunction(item) {
+  console.log(item);
+};
+
 function uploadImage(){
   const ref = firebase.storage().ref();
 
@@ -27,6 +64,9 @@ function uploadImage(){
   const metadata = {
     contentType:file.type
   }
+
+  //Trying to Retrieve Data
+  messagesRef.on('value', gotData, errData);
 
   const task = ref.child(name).put(file,metadata)
 
@@ -41,8 +81,19 @@ function uploadImage(){
 
 }
 
-// Reference messages collectionzzz
-var messagesRef = firebase.database().ref('messages');
+function gotData(data) {
+  //Data being fetched.
+  console.log(data.val());
+  //console.log(Object.keys(data.val()));
+}
+
+function errData(err) {
+  console.log('Error!');
+  console.log(err);
+}
+
+// Reference messages collection
+//var messagesRef = firebase.database().ref('messages');
 
 // Listen for form submit
 document.getElementById('contactForm').addEventListener('submit', submitForm);
